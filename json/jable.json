@@ -1,45 +1,41 @@
 {
-   //永久地址https://jable.tv/zh
-  // 发布页https://alldayj.com/
-  //发布页https://github.com/aj23koby4495612/aj23koby4495612
     "规则名": "jable-XYQHiker",
     "规则作者": "飞鱼",
     "请求头参数":"PC_UA",
     "网页编码格式":"UTF-8",
     "图片是否需要代理":"0",
     "是否开启获取首页数据":"1",
-	 //首页推荐数据获取链接
+	
     "首页推荐链接": "https://fs1.app/new-release/",
-    //首页推荐列表数组截取。
+   
     "首页列表数组规则": ".pb-e-lg-40",
-    //首页推荐片单列表数组定位。
+  
     "首页片单列表数组规则": ".col-6",
-    //首页推荐片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
+   
     "首页片单是否Jsoup写法":"1",
-    //下面这六个首页数据如果不填将调用分类那截取的配置（片单写法需一致且取值也得一致）。
-    //首页片单标题
+
     "首页片单标题": ".detail&&a&&Text",
-    //首页推荐片单链接
+   
     "首页片单链接": "a&&href",
-    //首页推荐片单图片，支持自定义图片链接
+   
     "首页片单图片": "img&&data-src",
-    //首页推荐片单副标题
+   
     "首页片单副标题":".label&&Text",
-    //首页推荐片单链接补前缀  
+  
     "首页片单链接加前缀": "",
-    //首页推荐片单链接补后缀
+   
     "首页片单链接加后缀": "",
     "分类起始页码": "1",
-    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+   
 	"分类链接": "https://fs1.app/{cateId}/{catePg}/",
     "分类名称": "最新影片&热门🔥&主题分类&衣着&身材&交合&玩法&剧情&角色&地点&杂项",
     "分类名称替换词": "latest-updates&hot&categories/bdsm/&tags/black-pantyhose/&tags/suntan/&tags/facial/&tags/outdoor/&tags/black/&tags/club-hostess-and-sex-worker/&tags/magic-mirror/&tags/debut-retires/",
-    //"筛选数据":{},
+
     "分类截取模式": "1",
     "分类列表数组规则": ".pb-e-lg-40&&.col-6",
     "分类片单是否Jsoup写法":"1",
     "分类片单标题": ".detail&&a&&Text",
-    "分类片单链接": "a&&href",//替换规则
+    "分类片单链接": "a&&href",
     "分类片单图片": "img&&data-src",
     "分类片单副标题":".label&&Text",
     "分类片单链接加前缀": "",
@@ -57,12 +53,12 @@
     "搜索片单副标题":".label&&Text",
     "搜索片单链接加前缀": "",
     "搜索片单链接加后缀": "",
-       //--------
-         "链接是否直接播放": "1",
+    
+	"链接是否直接播放": "1",
 "直接播放链接加前缀": "",
 "直接播放链接加后缀": "",
 "直接播放直链视频请求头": "",
-//-------
+
     "详情是否Jsoup写法":"1",
     "类型详情": ".content&&.detail-item&&.genre&&Text",
     "年代详情": ".content&&.detail-item&&span,3&&Text",
