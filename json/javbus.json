@@ -1,6 +1,4 @@
 {
-//回家地址 → https://www.sekutv03.cc/数字改
-
 "规则名": "JAVBUS-XYQHiker",
 "规则作者": "飞鱼",
 "请求头参数": "手机",
@@ -18,7 +16,7 @@
 "首页片单链接加前缀": "",
 "首页片单链接加后缀": "",
 "分类起始页码": "1",
-//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+
 "分类链接": "https://www.cdnbus.art/{cateId}/page/{catePg}",
 "分类名称": "无码",
 "分类名称替换词": "uncensored",
