@@ -10,7 +10,7 @@
     "首页推荐链接": "https://18jav.tv/label/new/",
   
     "首页列表数组规则": "body",
-  。
+  
     "首页片单列表数组规则": ".gap-5&&.group",
    
     "首页片单是否Jsoup写法":"1",
@@ -36,7 +36,7 @@
     "分类列表数组规则": "#list_videos_common_videos_list&&.col-6.col-sm-4.col-lg-3",
     "分类片单是否Jsoup写法":"1",
     "分类片单标题": ".title&&Text",
-    "分类片单链接": "a&&href",//替换规则
+    "分类片单链接": "a&&href",
     "分类片单图片": "img&&data-src",
     "分类片单副标题":".label&&Text",
     "分类片单链接加前缀": "https://18jav.tv",
