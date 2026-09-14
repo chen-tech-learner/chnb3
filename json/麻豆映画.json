@@ -1,6 +1,4 @@
 {
-//回家地址 → https://www.madoupj.com/数字改
-
 "规则名": "麻豆映画-XYQHiker",
 "规则作者": "飞鱼",
 "请求头参数": "手机",
@@ -18,7 +16,6 @@
 "首页片单链接加前缀": "https://www.madoupj.com",
 "首页片单链接加后缀": "",
 "分类起始页码": "1",
-//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
 "分类链接": "https://www.madoupj.com/index.php/&m=vodtype/{cateId}/page/{catePg}.html",
 "分类名称": "麻豆原创&原创伙伴&节目企划&免费视频区",
 "分类名称替换词": "mdapp1&mdapp2&mdapp3&mdapp72",
