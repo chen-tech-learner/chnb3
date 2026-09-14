@@ -1,6 +1,4 @@
 {
-//回家地址 → https://kanav.info/数字改
-
 "规则名": "kanav-XYQHiker",
 "规则作者": "飞鱼",
 "请求头参数": "手机",
@@ -18,7 +16,7 @@
 "首页片单链接加前缀": "https://kanav.info",
 "首页片单链接加后缀": "",
 "分类起始页码": "1",
-//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+
 "分类链接": "https://kanav.info/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html",
 "分类名称": "中文字幕&日韩有码&日韩无码&国产AV&流出自拍&动漫番剧",
 "分类名称替换词": "1&2&3&4&22&20",
