@@ -16,7 +16,7 @@
 "首页片单链接加前缀": "https://banan.tv",
 "首页片单链接加后缀": "",
 "分类起始页码": "1",
-//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+
 "分类链接": "https://banan.tv/{cateId}-{catePg}.html",
 "分类名称": "分类&选片&AV番号&",
 "分类名称替换词": "vodtype/25&topicdetail-18&topicdetail-8&",
