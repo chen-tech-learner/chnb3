@@ -1,6 +1,4 @@
 {
-//回家地址 → https://netflav5.com/数字改
-
 "规则名": "奈飞av-XYQHiker",
 "规则作者": "飞鱼",
 "请求头参数": "手机",
@@ -18,19 +16,16 @@
 "首页片单链接加前缀": "https://netflav5.com",
 "首页片单链接加后缀": "",
 "分类起始页码": "1",
-//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
 "分类链接": "https://netflav5.com/{cateId}?page={catePg}",
 "分类名称": "全部&最受欢迎&有码&无码&中文字幕",
 "分类名称替换词": "all&trending&censored&uncensored&chinese-sub",
 "分类截取模式": "1",
-//"分类Json数据二次截取":"\"props\":{&&}",
 "分类列表数组规则": ".video_grid_container&&.grid_0_cell",
 "分类片单是否Jsoup写法": "1",
 "分类片单标题": ".grid_0_title&&Text",
 "分类片单链接": "a&&href",
 "分类片单图片": "img&&src",
 "分类片单副标题": ".grid_0_date&&Text",
-
 "分类片单链接加前缀": "https://netflav5.com/video?id=",
 "分类片单链接加后缀": "",
 "搜索请求头参数": "User-Agent$PC_UA",
@@ -55,19 +50,7 @@
     "地区详情": "",
     "演员详情": "",
     "简介详情": "",
-    //"线路列表数组规则": ".play-btn-group&&.line",
-   // "线路标题": "'📽️'+a&&Text+'📺'",
-    //"播放列表数组规则": ".line",
-    //"选集列表数组规则": "a",
-    //"选集标题链接是否Jsoup写法":"1",
-   // "选集标题": "a&&Text",
-   // "选集链接": "a&&href",
-   // "是否反转选集序列": "0",
-   // "选集链接加前缀": "https://netflav5.com",
-   // "选集链接加后缀": "",
-   
-"筛选数据":{},
-
+   "筛选数据":{},
 "分析MacPlayer": "0",
 "是否开启手动嗅探": "1",
 "手动嗅探视频链接关键词": ".m3u8#.mp4",
