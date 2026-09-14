@@ -1,7 +1,4 @@
 {
-//apple24.cc
-//回家地址 → https://u9a9a.cc/数字改
-//https://u9a9a.cc/
 "规则名": "u9a9-XYQHiker",
 "规则作者": "飞鱼",
 "请求头参数": "手机",
@@ -19,7 +16,7 @@
 "首页片单链接加前缀": "",
 "首页片单链接加后缀": "",
 "分类起始页码": "1",
-//"分类链接": "https://hscangku.com/vodshow/{cateId}-{catePg}/",
+
 "分类链接": "https://u9a9b.cc/?type={cateId}&p={catePg}",
 "分类名称": "全部资源",
 "分类名称替换词": "2",
