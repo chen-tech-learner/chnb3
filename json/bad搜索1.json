@@ -1,39 +1,36 @@
 {
-
-  
     "规则名": "BAD.news搜索1-XYQHiker",
     "规则作者": "飞鱼",
     "请求头参数":"手机",
     "网页编码格式":"UTF-8",
     "图片是否需要代理":"0",
     "是否开启获取首页数据": "0",
-	 //首页推荐数据获取链接
+	
     "首页推荐链接": "https://bad.news/search/q-学生",
-    //首页推荐列表数组截取。
+   
     "首页列表数组规则": "#item-container",
-    //首页推荐片单列表数组定位。
+ 
     "首页片单列表数组规则": "table",
-    //首页推荐片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
+    
     "首页片单是否Jsoup写法":"1",
-    //下面这六个首页数据如果不填将调用分类那截取的配置（片单写法需一致且取值也得一致）。
-    //首页片单标题
+  
     "首页片单标题": "h3&&a&&Text",
-    //首页推荐片单链接
+   
     "首页片单链接": "h3&&a&&href",
-    //首页推荐片单图片，支持自定义图片链接
+  
     "首页片单图片": ".my-videos&&poster",
-    //首页推荐片单副标题
+   
     "首页片单副标题":".ct-time&&Text",
-    //首页推荐片单链接补前缀  
+   
     "首页片单链接加前缀": "https://bad.news",
-    //首页推荐片单链接补后缀
+ 
     "首页片单链接加后缀": "",
     "分类起始页码": "1",
-    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+  
 	"分类链接": "https://bad.news{cateId}{by}/page-{catePg}",
     "分类名称": "热门&无码&中字&周榜&月榜&主题分类&短视频&长视频&动漫",
     "分类名称替换词": "/av&/av/search/type-tags/q-無碼流出&/av/search/q-中文字幕/via-log&/av/rank-week&/av/rank-month&/av/search/type-tags/q-黑丝&/tag/porn&/tag/long-porn&/dm",
-    //"筛选数据":{},
+  
     "分类截取模式": "1",
     "分类列表数组规则": ".stui-vodlist.clearfix||#item-container&&table:not(:contains(ActivityPub))||li:not(:contains(ActivityPub))",
     "分类片单是否Jsoup写法":"1",
@@ -43,7 +40,7 @@
     "分类片单副标题":".ct-time&&Text",
     "分类片单链接加前缀":"https://bad.news",
     "分类片单链接加后缀": "",
-    "搜索请求头参数":"User-Agent$手机",
+    "搜索请求头参数":"User-Agent$MOBILE_UA",
     "搜索链接": "https://bad.news/av/search/q-{wd}",
     "POST请求数据":"0",
     "搜索截取模式": "1",
@@ -208,32 +205,6 @@
 {"v":"/dm/type/q-Cosplay","n":"Cosplay"}
 ]
 }],
-"sort/id/295":[
-  {"key":"cateId","name":"分类","value":[
-{"v":"sort/id/295","n":"无码专区"},
-{"v":"sort/id/297","n":"制服诱惑"},
-{"v":"sort/id/298","n":"三级伦理"},
-{"v":"sort/id/299","n":"AI换脸"},
-{"v":"sort/id/300","n":"中文字幕"},
-{"v":"sort/id/301","n":"卡通动漫"},
-{"v":"sort/id/302","n":"欧美系列"},
-{"v":"sort/id/303","n":"美女主播"},
-{"v":"sort/id/304","n":"国产自拍"},
-{"v":"sort/id/305","n":"熟女人妻"},
-{"v":"sort/id/306","n":"萝莉少女"},
-{"v":"sort/id/307","n":"女同性爱"},
-{"v":"sort/id/308","n":"多人群交"},
-{"v":"sort/id/309","n":"美乳巨乳"},
-{"v":"sort/id/310","n":"强奸乱伦"},
-{"v":"sort/id/311","n":"抖阴视频"},
-{"v":"sort/id/312","n":"韩国主播"},
-{"v":"sort/id/313","n":"网红头条"},
-{"v":"sort/id/314","n":"网爆黑料"},
-{"v":"sort/id/315","n":"欧美无码"},
-{"v":"sort/id/316","n":"女优明星"},
-{"v":"sort/id/317","n":"SM调教"},
-{"v":"sort/id/326","n":"AV解说"}
-]}],
 
 "/tag/porn":[
 
