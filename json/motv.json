@@ -1,6 +1,4 @@
 {
-//回家地址 → https://motv.app/数字改
-
 "规则名": "MOTV-XYQHiker",
 "规则作者": "飞鱼",
 "请求头参数": "手机",
@@ -18,7 +16,7 @@
 "首页片单链接加前缀": "https://motv.app",
 "首页片单链接加后缀": "",
 "分类起始页码": "1",
-//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+
 "分类链接": "https://motv.app/{cateId}--{by}-{class}-----{catePg}---/",
 "分类名称": "精选HD日本破解无码&精选HD欧美质量爽片&日本無碼&日本有碼&歐美风情&國產原創&水果短视频AV解说&色情雜燴(字幕不全)&三级电影&经典剧情四级电影",
 "分类名称替换词": "vodshow/51&vodshow/52&vodshow/50&vodshow/20&vodshow/25&vodshow/41&vodshow/35&vodshow/30&vodshow/53&vodshow/47",
