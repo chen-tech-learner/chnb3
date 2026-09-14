@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/yt.jar",
+  "spider": "https://gh-proxy.org/raw.githubusercontent.com/chen-tech-learner/chnb3/main/jar/yt.jar",
   "logo": "./logo.gif",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [
